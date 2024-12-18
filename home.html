@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <marquee bgcolor=darkred> There is no news available at the moment. Important events will be updated by either 5pm or 6pm. Thank you - (In)gale </marquee>
+    <div class="container">
+        <h1>Welcome,</h1>
+        <h1 id="user-role"></h1>
+        <a href="index.html">Log Out</a>
+    </div>
+    
+<div class="button-container">
+    <h2>Navigation</h2>
+    <button onclick="location.href='resources.html'">Resources</button>
+    <br>
+    <button onclick="location.href='suspects.html'">Suspect/Candidate List</button>
+    <br>
+    <button onclick="location.href='strategies.html'">Strategies</button>
+    <br>
+    <button onclick="location.href='proofs.html'">Proofs</button>
+    <br>
+    <button onclick="location.href='instructions.html'">Instructions</button>
+</div>
+    
+    <div>
+        <div class="quick-links-container">
+    <h5>Quick Exit Links</h5>
+           
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+        <li><a href="https://www.chatgpt.com" target="_blank">ChatGPT</a></li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <script>
+        // Display the user's role
+        const role = sessionStorage.getItem("role");
+        document.getElementById("user-role").textContent = role 
+            ? `${role}` 
+            : "No role found. Please log in again.";
+    </script>
+</body>
+</html>
