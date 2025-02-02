@@ -1,10 +1,10 @@
 // Define valid keys and roles
 const validKeys = {
     "wvc2bd": "Chief Consultant Ingale",
-    "ge7i4r": "Executive Yellow",
-    "znsa56": "Agent Blue",
-    "bi358e": "Detective Gray",
-    "548khe": "Executive Cyan"
+    "ge7i4r": "Senior Executive Kingfisher",
+    "znsa56": "Detective Grasshopper",
+    "bi358e": "Detective Daffodil",
+    "548khe": "Guest Account"
 };
 
 // Add event listener to handle form submission
