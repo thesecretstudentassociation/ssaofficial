@@ -3,9 +3,8 @@ const validKeys = {
     "wvc2bd": "Chief Consultant Ingale",
     "ge7i4r": "Senior Executive Yellow",
     "znsa56": "Executive Officer Blue",
-    "bi358e": "Detective Daffodil",
+    "bi358e": "Executive Officer Pearl",
     "548khe": "Chief Executive Officer Grace"
-    "ivg8an": "Executive Officer Pearl"
 };
 
 // Add event listener to handle form submission
