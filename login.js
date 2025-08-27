@@ -6,7 +6,6 @@ const validKeys = {
     "bi358e": "Detective Daffodil",
     "548khe": "Chief Executive Officer Grace"
     "ivg8an": "Executive Officer Pearl"
- 
 };
 
 // Add event listener to handle form submission
