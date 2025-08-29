@@ -32,7 +32,7 @@ button {
     padding: 10px;
     background-color: #333;
     color: #fff;
-    border: 2px solid grey;
+    border: 2px solid #E8E8E8; /* Lighter grey for contrast */
     border-radius: 5px;
     cursor: pointer;
 }
@@ -57,6 +57,7 @@ button:hover,
     font-size: 16px;
     border-radius: 5px;
     transition: background-color 0.3s;
+    border: 2px solid #E8E8E8; /* Lighter grey for contrast */
 }
 
 .quick-links-container {
