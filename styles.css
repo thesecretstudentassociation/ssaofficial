@@ -32,7 +32,7 @@ button {
     padding: 10px;
     background-color: #333;
     color: #848884;
-    border: 2px solid #E8E8E8; /* Lighter grey for contrast */
+    border: 2px solid #848884; /* Lighter grey for contrast */
     border-radius: 5px;
     cursor: pointer;
 }
