@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +7,6 @@ body {
     text-align: center;
 }
 
-/* Container */
 .container {
     margin: 10% auto;
     max-width: 400px;
@@ -19,7 +17,6 @@ body {
     box-shadow: 0 0 10px #444;
 }
 
-/* Input Fields */
 input {
     width: 80%;
     padding: 10px;
@@ -30,32 +27,21 @@ input {
     color: #fff;
 }
 
-/* Buttons */
 button {
     width: 85%;
     padding: 10px;
     background-color: #333;
     color: #fff;
-    border:  border: 2px solid grey;
+    border: 2px solid grey;
     border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
+button:hover,
+.button:hover {
     background-color: #555;
 }
 
-/* Links */
-a {
-    color: #00bcd4;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Styles for the buttons */
 .buttons-container {
     text-align: center;
     margin-top: 20px;
@@ -63,8 +49,8 @@ a:hover {
 
 .button {
     display: inline-block;
-    background-color: #333; /* Dark background for buttons */
-    color: #fff; /* White text */
+    background-color: #333;
+    color: #fff;
     padding: 10px 20px;
     margin: 10px;
     text-decoration: none;
@@ -73,22 +59,19 @@ a:hover {
     transition: background-color 0.3s;
 }
 
-.button:hover {
-    background-color: #555; /* Slightly lighter on hover */
-    
-    .quick-links-container {
+.quick-links-container {
     margin-top: 30px;
     padding: 20px;
-    background-color: #f9f9f9; /* Light gray background */
-    border: 1px solid #ddd; /* Subtle border */
-    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     text-align: center;
 }
 
 .quick-links-container h3 {
     margin-bottom: 10px;
     font-size: 18px;
-    color: #333; /* Dark text color */
+    color: #333;
 }
 
 .quick-links-container ul {
@@ -102,15 +85,13 @@ a:hover {
 
 .quick-links-container a {
     text-decoration: none;
-    color: #007BFF; /* Blue link color */
+    color: #007BFF;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .quick-links-container a:hover {
-    color: #0056b3; /* Darker blue on hover */
-}
-
+    color: #0056b3;
 }
 
 
