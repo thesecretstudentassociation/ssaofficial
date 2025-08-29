@@ -24,14 +24,14 @@ input {
     border: 1px solid #555;
     border-radius: 5px;
     background-color: #222;
-    color: #fff;
+    color: #848884;
 }
 
 button {
     width: 85%;
     padding: 10px;
     background-color: #333;
-    color: #fff;
+    color: #848884;
     border: 2px solid #E8E8E8; /* Lighter grey for contrast */
     border-radius: 5px;
     cursor: pointer;
